@@ -1,0 +1,193 @@
+.student_bar{
+    padding-top: 1%;
+    border:3px solid #0a0a0a;
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-style: normal;
+    line-height: 1em
+
+}
+#stu_name{
+
+    padding-right: 9%;
+    padding-left: 2%;
+
+}
+
+.dropbtn {
+    background-color: #FFFFFF;
+
+    border: none;
+    cursor: pointer;
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-style: normal;
+    line-height: 1em
+}
+
+.quesbtn{
+    cursor: pointer;
+}
+.class_dropdown {
+    position: relative;
+    display: inline-block;
+    padding-left: 20%;
+    padding-right: 33%;
+
+}
+.ques_list {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 25%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.question-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 350%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 8% 11%;
+    text-decoration: none;
+    display: block;
+}
+.question-content a {
+    color: black;
+    padding: 8% 11%;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.question-content a:hover {background-color: #f1f1f1}
+.class_dropdown:hover .dropdown-content {
+    display: block;
+}
+.ques_list:hover .question-content {
+    display: block;
+}
+.class_dropdown:hover .dropbtn {
+    background-color: #8a8a8a;
+}
+.ques_list:hover .quesbtn {
+    background-color: #8a8a8a;
+
+}
+.ques_box {
+    border: 1px solid gray;
+    box-shadow: 5px 5px 5px #888888;
+    width: 50%;
+    height: 70%;
+    margin-left: 27%;
+    padding-left: 3%;
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-style: normal;
+    line-height: 1em
+
+}
+.sol_box {
+    border: 10px solid orange;
+    background-color: orange;
+    opacity: 0.8;
+    border-radius: 10%;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-left: 72%;
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-style: normal;
+    line-height: 1em
+}
+.prev_box {
+    border: 10px solid green;
+    background-color: green;
+    opacity: 0.8;
+    border-radius: 10%;
+    cursor: pointer;
+    margin-top: 20%;
+margin-bottom: 5%;
+    font-weight: 500;
+}
+.next_box {
+    border: 10px solid green;
+    background-color: green;
+    opacity: 0.8;
+    border-radius: 10%;
+    cursor: pointer;
+    margin-top: 20%;
+    margin-left: 73.5%;
+    margin-bottom: 5%;
+    font-weight: 500;
+}
+.sub_box {
+    border: 10px solid deepskyblue;
+    background-color: deepskyblue;
+    opacity: 0.8;
+    border-radius: 10%;
+    cursor: pointer;
+margin-left: 81.5%;
+    font-weight: 500;
+    margin-top: 3%;
+
+}
+.ques_num{
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-style: normal;
+    line-height: 1em;
+    margin-top: 5%;
+}
+.the_ques{
+    margin-top: 7%;
+}
+#myText{
+    width:94%;
+    padding-bottom: 50%;
+    padding-top: 3%;
+    padding-right: 1%;
+    margin-top: 4%;
+}
+
+.compile_box{
+    border: 10px solid #fff06f;
+    background-color: #fff06f;
+    opacity: 0.8;
+    border-radius: 10%;
+    cursor: pointer;
+    margin-left: 70.5%;
+    font-weight: 500;
+    margin-top: 3%;
+}
